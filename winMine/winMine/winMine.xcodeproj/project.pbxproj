@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8538F1131C8FB0ED007CD1AA /* MineWiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F1121C8FB0ED007CD1AA /* MineWiew.m */; };
+		8538F1171C8FB4FF007CD1AA /* MineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8538F1161C8FB4FF007CD1AA /* MineView.xib */; };
+		8538F1191C8FB67A007CD1AA /* mine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8538F1181C8FB67A007CD1AA /* mine.plist */; };
+		8538F1441C8FC3E5007CD1AA /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F1431C8FC3E5007CD1AA /* MineModel.m */; };
+		853EA1F61C8EE81E000437CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853EA1F51C8EE81E000437CF /* main.m */; };
+		853EA1F91C8EE81E000437CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853EA1F81C8EE81E000437CF /* AppDelegate.m */; };
+		853EA2011C8EE81E000437CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853EA2001C8EE81E000437CF /* Assets.xcassets */; };
+		853EA2041C8EE81E000437CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853EA2021C8EE81E000437CF /* LaunchScreen.storyboard */; };
+		853EA20E1C8EE87B000437CF /* WinMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853EA20C1C8EE87B000437CF /* WinMineViewController.m */; };
+		853EA20F1C8EE87B000437CF /* WinMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853EA20D1C8EE87B000437CF /* WinMineViewController.xib */; };
+		853EA23F1C8EF5DF000437CF /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 853EA23E1C8EF5DF000437CF /* mine.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8538F1111C8FB0ED007CD1AA /* MineWiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineWiew.h; sourceTree = "<group>"; };
+		8538F1121C8FB0ED007CD1AA /* MineWiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineWiew.m; sourceTree = "<group>"; };
+		8538F1161C8FB4FF007CD1AA /* MineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineView.xib; sourceTree = "<group>"; };
+		8538F1181C8FB67A007CD1AA /* mine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mine.plist; sourceTree = "<group>"; };
+		8538F1421C8FC3E5007CD1AA /* MineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
+		8538F1431C8FC3E5007CD1AA /* MineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
+		853EA1F11C8EE81E000437CF /* winMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = winMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853EA1F51C8EE81E000437CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		853EA1F71C8EE81E000437CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		853EA1F81C8EE81E000437CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		853EA2001C8EE81E000437CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853EA2031C8EE81E000437CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853EA2051C8EE81E000437CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853EA20B1C8EE87B000437CF /* WinMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinMineViewController.h; sourceTree = "<group>"; };
+		853EA20C1C8EE87B000437CF /* WinMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinMineViewController.m; sourceTree = "<group>"; };
+		853EA20D1C8EE87B000437CF /* WinMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinMineViewController.xib; sourceTree = "<group>"; };
+		853EA23E1C8EF5DF000437CF /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853EA1EE1C8EE81D000437CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853EA1E81C8EE81D000437CF = {
+			isa = PBXGroup;
+			children = (
+				853EA1F31C8EE81E000437CF /* winMine */,
+				853EA1F21C8EE81E000437CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853EA1F21C8EE81E000437CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853EA1F11C8EE81E000437CF /* winMine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853EA1F31C8EE81E000437CF /* winMine */ = {
+			isa = PBXGroup;
+			children = (
+				853EA1F71C8EE81E000437CF /* AppDelegate.h */,
+				853EA1F81C8EE81E000437CF /* AppDelegate.m */,
+				853EA23E1C8EF5DF000437CF /* mine.png */,
+				853EA20B1C8EE87B000437CF /* WinMineViewController.h */,
+				853EA20C1C8EE87B000437CF /* WinMineViewController.m */,
+				853EA20D1C8EE87B000437CF /* WinMineViewController.xib */,
+				8538F1111C8FB0ED007CD1AA /* MineWiew.h */,
+				8538F1121C8FB0ED007CD1AA /* MineWiew.m */,
+				8538F1161C8FB4FF007CD1AA /* MineView.xib */,
+				8538F1421C8FC3E5007CD1AA /* MineModel.h */,
+				8538F1431C8FC3E5007CD1AA /* MineModel.m */,
+				853EA2001C8EE81E000437CF /* Assets.xcassets */,
+				853EA2021C8EE81E000437CF /* LaunchScreen.storyboard */,
+				853EA2051C8EE81E000437CF /* Info.plist */,
+				8538F1181C8FB67A007CD1AA /* mine.plist */,
+				853EA1F41C8EE81E000437CF /* Supporting Files */,
+			);
+			path = winMine;
+			sourceTree = "<group>";
+		};
+		853EA1F41C8EE81E000437CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				853EA1F51C8EE81E000437CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853EA1F01C8EE81D000437CF /* winMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853EA2081C8EE81E000437CF /* Build configuration list for PBXNativeTarget "winMine" */;
+			buildPhases = (
+				853EA1ED1C8EE81D000437CF /* Sources */,
+				853EA1EE1C8EE81D000437CF /* Frameworks */,
+				853EA1EF1C8EE81D000437CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = winMine;
+			productName = winMine;
+			productReference = 853EA1F11C8EE81E000437CF /* winMine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853EA1E91C8EE81D000437CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mrHu;
+				TargetAttributes = {
+					853EA1F01C8EE81D000437CF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 853EA1EC1C8EE81D000437CF /* Build configuration list for PBXProject "winMine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853EA1E81C8EE81D000437CF;
+			productRefGroup = 853EA1F21C8EE81E000437CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853EA1F01C8EE81D000437CF /* winMine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853EA1EF1C8EE81D000437CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853EA2041C8EE81E000437CF /* LaunchScreen.storyboard in Resources */,
+				853EA23F1C8EF5DF000437CF /* mine.png in Resources */,
+				853EA2011C8EE81E000437CF /* Assets.xcassets in Resources */,
+				853EA20F1C8EE87B000437CF /* WinMineViewController.xib in Resources */,
+				8538F1171C8FB4FF007CD1AA /* MineView.xib in Resources */,
+				8538F1191C8FB67A007CD1AA /* mine.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853EA1ED1C8EE81D000437CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853EA1F91C8EE81E000437CF /* AppDelegate.m in Sources */,
+				853EA1F61C8EE81E000437CF /* main.m in Sources */,
+				8538F1131C8FB0ED007CD1AA /* MineWiew.m in Sources */,
+				8538F1441C8FC3E5007CD1AA /* MineModel.m in Sources */,
+				853EA20E1C8EE87B000437CF /* WinMineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		853EA2021C8EE81E000437CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853EA2031C8EE81E000437CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853EA2061C8EE81E000437CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		853EA2071C8EE81E000437CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853EA2091C8EE81E000437CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = winMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mrHu.winMine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853EA20A1C8EE81E000437CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = winMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mrHu.winMine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853EA1EC1C8EE81D000437CF /* Build configuration list for PBXProject "winMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853EA2061C8EE81E000437CF /* Debug */,
+				853EA2071C8EE81E000437CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853EA2081C8EE81E000437CF /* Build configuration list for PBXNativeTarget "winMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853EA2091C8EE81E000437CF /* Debug */,
+				853EA20A1C8EE81E000437CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853EA1E91C8EE81D000437CF /* Project object */;
+}
